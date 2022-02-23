@@ -1,0 +1,83 @@
+@prefix OEO: <http://openenergy-platform.org/ontology/oeo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://openenergy-platform.org/ontology/oekg/KLIMASCHUTZSZENARIO_2050> a OEO:OEO_00000364 ;
+    OEO:BFO_0000051 [ a OEO:OEO_00020098 ;
+            OEO:BFO_0000051 [ a OEO:OEO_00030035 ;
+                    OEO:OEO_00040010 <http://openenergy-platform.org/ontology/oekg/scenario_duration_unit_year> ;
+                    OEO:OEO_00140178 30 ],
+                [ a OEO:OEO_00030031 ;
+                    OEO:OEO_00140178 2020 ],
+                [ a OEO:OEO_00030032 ;
+                    OEO:OEO_00140178 2050 ],
+                <http://openenergy-platform.org/ontology/oekg/scenario_year_2020>,
+                <http://openenergy-platform.org/ontology/oekg/scenario_year_2030>,
+                <http://openenergy-platform.org/ontology/oekg/scenario_year_2040>,
+                <http://openenergy-platform.org/ontology/oekg/scenario_year_2050> ] ;
+    OEO:OEO_00000505 [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00010135> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00000213> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00010041> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00010049> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00010047> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00000145> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00010040> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00010053> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00000422> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00010050> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00010042> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00010160> ] ;
+    OEO:OEO_00000523 [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00000251> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00000220> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00000025> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00000292> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00000220> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00000204> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00000439> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00000072> ] .
+
+<http://openenergy-platform.org/ontology/oekg/ZUKUNFT_STROMSYSTEM> a OEO:OEO_00000364 ;
+    OEO:BFO_0000051 [ a OEO:OEO_00020098 ;
+            OEO:BFO_0000051 [ a OEO:OEO_00030035 ;
+                    OEO:OEO_00040010 <http://openenergy-platform.org/ontology/oekg/scenario_duration_unit_year> ;
+                    OEO:OEO_00140178 30 ],
+                [ a OEO:OEO_00030031 ;
+                    OEO:OEO_00140178 2020 ],
+                [ a OEO:OEO_00030032 ;
+                    OEO:OEO_00140178 2050 ],
+                <http://openenergy-platform.org/ontology/oekg/scenario_year_2020>,
+                <http://openenergy-platform.org/ontology/oekg/scenario_year_2025>,
+                <http://openenergy-platform.org/ontology/oekg/scenario_year_2030>,
+                <http://openenergy-platform.org/ontology/oekg/scenario_year_2035>,
+                <http://openenergy-platform.org/ontology/oekg/scenario_year_2040>,
+                <http://openenergy-platform.org/ontology/oekg/scenario_year_2045>,
+                <http://openenergy-platform.org/ontology/oekg/scenario_year_2050> ] ;
+    OEO:OEO_00000505 [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00000145> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00010047> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00010049> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00010135> ] ;
+    OEO:OEO_00000523 [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00000439> ],
+        [ a <http://openenergy-platform.org/ontology/oeo/http://openenergy-platform.org/ontology/oeo/OEO_00000025> ] .
+
+<http://openenergy-platform.org/ontology/oekg/scenario_year_2025> a OEO:OEO_00020097 ;
+    OEO:OEO_00140178 [ OEO:OEO_00140178 2025 ] .
+
+<http://openenergy-platform.org/ontology/oekg/scenario_year_2035> a OEO:OEO_00020097 ;
+    OEO:OEO_00140178 [ OEO:OEO_00140178 2035 ] .
+
+<http://openenergy-platform.org/ontology/oekg/scenario_year_2045> a OEO:OEO_00020097 ;
+    OEO:OEO_00140178 [ OEO:OEO_00140178 2045 ] .
+
+<http://openenergy-platform.org/ontology/oekg/scenario_duration_unit_year> a OEO:UO_0000036 .
+
+<http://openenergy-platform.org/ontology/oekg/scenario_year_2020> a OEO:OEO_00020097 ;
+    OEO:OEO_00140178 [ OEO:OEO_00140178 2020 ] .
+
+<http://openenergy-platform.org/ontology/oekg/scenario_year_2030> a OEO:OEO_00020097 ;
+    OEO:OEO_00140178 [ OEO:OEO_00140178 2030 ] .
+
+<http://openenergy-platform.org/ontology/oekg/scenario_year_2040> a OEO:OEO_00020097 ;
+    OEO:OEO_00140178 [ OEO:OEO_00140178 2040 ] .
+
+<http://openenergy-platform.org/ontology/oekg/scenario_year_2050> a OEO:OEO_00020097 ;
+    OEO:OEO_00140178 [ OEO:OEO_00140178 2050 ] .
+
