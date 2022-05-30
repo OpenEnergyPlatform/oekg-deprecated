@@ -10,7 +10,7 @@ OEKG:Aktuelle_Maßnahmen_Szenario__2012_ a OEO:OEO_00000364 ;
     RDFS:label "Aktuelle_Maßnahmen_Szenario__2012_" ;
     OEO:IAO_0000115 "All_measures_done_until_2012,_target__now_situation_of_political_energy_and_climate_framework" ;
     OEO:IAO_0000136 OEKG:klimaschutzszenario_2050_analysis_scope ;
-    OEO:OEO_00010247 "AMS__2012_" ;
+    OEO:abbreviation "AMS__2012_" ;
     DC:type "Measure-driven" .
 
 OEKG:Almut_Kirchner a OEO:OEO_00000064 .
@@ -30,7 +30,7 @@ OEKG:Combination_of_maintaining_the_use_of_biomass_for_heating_purposes_and_less
     RDFS:label "Combination_of_maintaining_the_use_of_biomass_for_heating_purposes_and_less_ambitious_building_renovation" ;
     OEO:IAO_0000115 "Effects_of_combined_use_of_biomass_for_heating_purposes_and_less_heat_demand_reduction" ;
     OEO:IAO_0000136 OEKG:Trafo_FW_analysis_scope ;
-    OEO:OEO_00010247 "2B" ;
+    OEO:abbreviation "2B" ;
     DC:type "Target-driven" .
 
 OEKG:Elisa_Gaudchau a OEO:OEO_00000064 .
@@ -39,7 +39,7 @@ OEKG:Energieszenario_2030 a OEO:OEO_00000364 ;
     RDFS:label "Energieszenario_2030" ;
     OEO:IAO_0000115 "Demand_data_from_2010_is_scaled_with_expacted_demand_in_2030__political_goal_" ;
     OEO:IAO_0000136 OEKG:Untersuchungen_zur_Energiestrategie_Brandenburgs_analysis_scope ;
-    OEO:OEO_00010247 "appBBB_ES2030" ;
+    OEO:abbreviation "appBBB_ES2030" ;
     DC:type "Target-driven" .
 
 OEKG:Felix_Chr._Matthes a OEO:OEO_00000064 .
@@ -58,21 +58,21 @@ OEKG:Globaler_Klimaschutz___80_Klimapfad a OEO:OEO_00000364 ;
     RDFS:label "Globaler_Klimaschutz___80_Klimapfad" ;
     OEO:IAO_0000115 "Global_community_commits_to_2_degree_goal,_climate_control_instruments_globally_coordinated,_acceleration_of_innovation" ;
     OEO:IAO_0000136 OEKG:Klimapfade_für_Deutschland_analysis_scope ;
-    OEO:OEO_00010247 "G80" ;
+    OEO:abbreviation "G80" ;
     DC:type "Target-driven" .
 
 OEKG:Globales_Klimaschutz___95_Klimapfad a OEO:OEO_00000364 ;
     RDFS:label "Globales_Klimaschutz___95_Klimapfad" ;
     OEO:IAO_0000115 "Global_community_commits_to_2_degree_goal,_climate_control_instruments_globally_coordinated" ;
     OEO:IAO_0000136 OEKG:Klimapfade_für_Deutschland_analysis_scope ;
-    OEO:OEO_00010247 "G95" ;
+    OEO:abbreviation "G95" ;
     DC:type "Target-driven" .
 
 OEKG:Grüne_2030 a OEO:OEO_00000364 ;
     RDFS:label "Grüne_2030" ;
     OEO:IAO_0000115 "Demand_data_from_2010_is_scaled_with_expacted_demand_in_2030__own_assumptions_contrary_to_ES2030_" ;
     OEO:IAO_0000136 OEKG:Untersuchungen_zur_Energiestrategie_Brandenburgs_analysis_scope ;
-    OEO:OEO_00010247 "appBBB_gruene2030" ;
+    OEO:abbreviation "appBBB_gruene2030" ;
     DC:type "Target-driven" .
 
 OEKG:Hannes_Boettcher a OEO:OEO_00000064 .
@@ -167,10 +167,10 @@ OEKG:Klimapfade_für_Deutschland_resolution a OEO:OEO_00020121 ;
     OEO:OEO_00040010 OEO:UO_0000036 .
 
 OEKG:Klimapfade_für_Deutschland_scenario_horizon a OEO:OEO_00020098 ;
-    OEO:BFO_0000051 [ a OEO:OEO_00030031 ;
-            OEO:OEO_00140178 2020 ],
-        [ a OEO:OEO_00030032 ;
+    OEO:BFO_0000051 [ a OEO:OEO_00030032 ;
             OEO:OEO_00140178 2050 ],
+        [ a OEO:OEO_00030031 ;
+            OEO:OEO_00140178 2020 ],
         OEKG:Klimapfade_für_Deutschland_duration,
         OEKG:scenario_year_2020,
         OEKG:scenario_year_2030,
@@ -181,14 +181,14 @@ OEKG:Klimaschutzszenario_80 a OEO:OEO_00000364 ;
     RDFS:label "Klimaschutzszenario_80" ;
     OEO:IAO_0000115 "Targets_of_governmental_energy_concept_for_greenhouse_gas_emissions,_renewable_energies_and_energy_efficiency" ;
     OEO:IAO_0000136 OEKG:klimaschutzszenario_2050_analysis_scope ;
-    OEO:OEO_00010247 "KS_80" ;
+    OEO:abbreviation "KS_80" ;
     DC:type "Target-driven" .
 
 OEKG:Klimaschutzszenario_95 a OEO:OEO_00000364 ;
     RDFS:label "Klimaschutzszenario_95" ;
     OEO:IAO_0000115 "Reduction_of_greenhouse_gas_emissions_95_in_2050_towards_1990" ;
     OEO:IAO_0000136 OEKG:klimaschutzszenario_2050_analysis_scope ;
-    OEO:OEO_00010247 "KS_95" ;
+    OEO:abbreviation "KS_95" ;
     DC:type "Target-driven" .
 
 OEKG:Lara_Mia_Herrmann a OEO:OEO_00000064 .
@@ -197,49 +197,49 @@ OEKG:Laufzeitbegrenzungs_Szenario_for_20_years__EEG_ a OEO:OEO_00000364 ;
     RDFS:label "Laufzeitbegrenzungs_Szenario_for_20_years__EEG_" ;
     OEO:IAO_0000115 "Operating_time_of_power_plants_limited,_disconnection_of_coal_power_plants_according_to_model_of_withdrawal_from_nuclear_energy_programme" ;
     OEO:IAO_0000136 OEKG:Zukunft_Stromsystem_analysis_scope ;
-    OEO:OEO_00010247 "" ;
+    OEO:abbreviation "" ;
     DC:type "Target-driven" .
 
 OEKG:Laufzeitbegrenzungs_Szenario_for_25_years__EEG_ a OEO:OEO_00000364 ;
     RDFS:label "Laufzeitbegrenzungs_Szenario_for_25_years__EEG_" ;
     OEO:IAO_0000115 "Operating_time_of_power_plants_limited,_disconnection_of_coal_power_plants_according_to_model_of_withdrawal_from_nuclear_energy_programme" ;
     OEO:IAO_0000136 OEKG:Zukunft_Stromsystem_analysis_scope ;
-    OEO:OEO_00010247 "" ;
+    OEO:abbreviation "" ;
     DC:type "Target-driven" .
 
 OEKG:Laufzeitbegrenzungs_Szenario_for_30_years__EEG_ a OEO:OEO_00000364 ;
     RDFS:label "Laufzeitbegrenzungs_Szenario_for_30_years__EEG_" ;
     OEO:IAO_0000115 "Operating_time_of_power_plants_limited,_disconnection_of_coal_power_plants_according_to_model_of_withdrawal_from_nuclear_energy_programme" ;
     OEO:IAO_0000136 OEKG:Zukunft_Stromsystem_analysis_scope ;
-    OEO:OEO_00010247 "" ;
+    OEO:abbreviation "" ;
     DC:type "Target-driven" .
 
 OEKG:Laufzeitbrezungs_Szenario_for_20_years a OEO:OEO_00000364 ;
     RDFS:label "Laufzeitbrezungs_Szenario_for_20_years" ;
     OEO:IAO_0000115 "Operating_time_of_power_plants_limited,_technical_practicability_limits_of_expansion_of_renewable_energy_are_not_completely_exploited" ;
     OEO:IAO_0000136 OEKG:Zukunft_Stromsystem_analysis_scope ;
-    OEO:OEO_00010247 "" ;
+    OEO:abbreviation "" ;
     DC:type "Target-driven" .
 
 OEKG:Laufzeitbrezungs_Szenario_for_25_years a OEO:OEO_00000364 ;
     RDFS:label "Laufzeitbrezungs_Szenario_for_25_years" ;
     OEO:IAO_0000115 "Operating_time_of_power_plants_limited,_technical_practicability_limits_of_expansion_of_renewable_energy_are_not_completely_exploited" ;
     OEO:IAO_0000136 OEKG:Zukunft_Stromsystem_analysis_scope ;
-    OEO:OEO_00010247 "" ;
+    OEO:abbreviation "" ;
     DC:type "Target-driven" .
 
 OEKG:Laufzeitbrezungs_Szenario_for_30_years a OEO:OEO_00000364 ;
     RDFS:label "Laufzeitbrezungs_Szenario_for_30_years" ;
     OEO:IAO_0000115 "Operating_time_of_power_plants_limited,_technical_practicability_limits_of_expansion_of_renewable_energy_are_not_completely_exploited" ;
     OEO:IAO_0000136 OEKG:Zukunft_Stromsystem_analysis_scope ;
-    OEO:OEO_00010247 "" ;
+    OEO:abbreviation "" ;
     DC:type "Target-driven" .
 
 OEKG:Less_ambitious_building_renovation a OEO:OEO_00000364 ;
     RDFS:label "Less_ambitious_building_renovation" ;
     OEO:IAO_0000115 "Effects_of_less_heat_demand_reduction_against_the_background_of_achieving_the_GHG_goal_in_the_building_sector" ;
     OEO:IAO_0000136 OEKG:Trafo_FW_analysis_scope ;
-    OEO:OEO_00010247 "2A" ;
+    OEO:abbreviation "2A" ;
     DC:type "Target-driven" .
 
 OEKG:Lothar_Rausch a OEO:OEO_00000064 .
@@ -248,42 +248,42 @@ OEKG:Maintaining_the_use_of_biomass_for_heating_purposes a OEO:OEO_00000364 ;
     RDFS:label "Maintaining_the_use_of_biomass_for_heating_purposes" ;
     OEO:IAO_0000115 "Effects_of_the_use_of_biomass_for_heating_puposes_against_the_background_of_achieving_the_GHG_goal_in_the_building_sector" ;
     OEO:IAO_0000136 OEKG:Trafo_FW_analysis_scope ;
-    OEO:OEO_00010247 "1B" ;
+    OEO:abbreviation "1B" ;
     DC:type "Target-driven" .
 
 OEKG:Mit_Erweiterten_Maßnahmen_Szenario a OEO:OEO_00000364 ;
     RDFS:label "Mit_Erweiterten_Maßnahmen_Szenario" ;
     OEO:IAO_0000115 "Suggestion_of_measures_in_order_to_achieve_sectoral_goals_of___Klimaschutzplan_2050" ;
     OEO:IAO_0000136 OEKG:Politikszenarien_VIII_analysis_scope ;
-    OEO:OEO_00010247 "MEMS" ;
+    OEO:abbreviation "MEMS" ;
     DC:type "Target-driven" .
 
 OEKG:Mit_Maßnahmen_Szenario a OEO:OEO_00000364 ;
     RDFS:label "Mit_Maßnahmen_Szenario" ;
     OEO:IAO_0000115 "All_measures_implemented_by_July_2016,_including_implemented_measures_from___Aktionsprogramm_Klimaschutz_2020" ;
     OEO:IAO_0000136 OEKG:Politikszenarien_VIII_analysis_scope ;
-    OEO:OEO_00010247 "MMS" ;
+    OEO:abbreviation "MMS" ;
     DC:type "Measure-driven" .
 
 OEKG:Mit_Weiteren_Maßnahmen_Szenario a OEO:OEO_00000364 ;
     RDFS:label "Mit_Weiteren_Maßnahmen_Szenario" ;
     OEO:IAO_0000115 "Not_yet_implemented_measures_of___Aktionsprogramm_Klimaschutz_2020___and___Nationalen_Aktionsplan_Energieeffizienz___included" ;
     OEO:IAO_0000136 OEKG:Politikszenarien_VIII_analysis_scope ;
-    OEO:OEO_00010247 "MWMS" ;
+    OEO:abbreviation "MWMS" ;
     DC:type "Measure-driven" .
 
 OEKG:Nationale_Alleingänge___80_Klimapfad a OEO:OEO_00000364 ;
     RDFS:label "Nationale_Alleingänge___80_Klimapfad" ;
     OEO:IAO_0000115 "Only_core_Europe_and_few_other_countries_pursue_climate_control,_coexistance_of_seperate_path,_regression_of_innovation_rate" ;
     OEO:IAO_0000136 OEKG:Klimapfade_für_Deutschland_analysis_scope ;
-    OEO:OEO_00010247 "N80" ;
+    OEO:abbreviation "N80" ;
     DC:type "Target-driven" .
 
 OEKG:Nationale_Alleingänge___95_Klimapfad a OEO:OEO_00000364 ;
     RDFS:label "Nationale_Alleingänge___95_Klimapfad" ;
     OEO:IAO_0000115 "Only_core_Europe_and_few_other_countries_pursue_climate_control,_coexistance_of_seperate_path,_regression_of_innovation_rate" ;
     OEO:IAO_0000136 OEKG:Klimapfade_für_Deutschland_analysis_scope ;
-    OEO:OEO_00010247 "N95" ;
+    OEO:abbreviation "N95" ;
     DC:type "Target-driven" .
 
 OEKG:Patrick_Herhold a OEO:OEO_00000064 .
@@ -408,28 +408,28 @@ OEKG:Reference_scenario_with_high_heat_demand_reduction_and_exit_form_the_use_of
     RDFS:label "Reference_scenario_with_high_heat_demand_reduction_and_exit_form_the_use_of_biomass_for_heating_purposes" ;
     OEO:IAO_0000115 "Ambitious,_energy_efficient_development" ;
     OEO:IAO_0000136 OEKG:Trafo_FW_analysis_scope ;
-    OEO:OEO_00010247 "1A" ;
+    OEO:abbreviation "1A" ;
     DC:type "Target-driven" .
 
 OEKG:Referenz_Szenario a OEO:OEO_00000364 ;
     RDFS:label "Referenz_Szenario" ;
     OEO:IAO_0000115 "Historical_scenario_with_oil_price_projection,_price_path_with_a_high_price_level_of_fuel" ;
     OEO:IAO_0000136 OEKG:Zukunft_Stromsystem_analysis_scope ;
-    OEO:OEO_00010247 "" ;
+    OEO:abbreviation "" ;
     DC:type "Measure-driven" .
 
 OEKG:Referenzszenario a OEO:OEO_00000364 ;
     RDFS:label "Referenzszenario" ;
     OEO:IAO_0000115 "Indicative_scenario,_target__evaluation_of_gap_between_development_under_current_situation_and_goal_of_climate_control_of_government" ;
     OEO:IAO_0000136 OEKG:Klimapfade_für_Deutschland_analysis_scope ;
-    OEO:OEO_00010247 "R" ;
+    OEO:abbreviation "R" ;
     DC:type "Measure-driven" .
 
 OEKG:Schnellausstiegs_Szenario a OEO:OEO_00000364 ;
     RDFS:label "Schnellausstiegs_Szenario" ;
     OEO:IAO_0000115 "Very_ambitioned_expansion_of_renewable_energy,_orientated_on_qualitative_determined_technical_limitations_of_exit_strategy,_regulatory_practicability_ignored" ;
     OEO:IAO_0000136 OEKG:Zukunft_Stromsystem_analysis_scope ;
-    OEO:OEO_00010247 "" ;
+    OEO:abbreviation "" ;
     DC:type "Target-driven" .
 
 OEKG:Stefan_Schoenberger a OEO:OEO_00000064 .
@@ -504,7 +504,7 @@ OEKG:Transformations_Szenario a OEO:OEO_00000364 ;
     RDFS:label "Transformations_Szenario" ;
     OEO:IAO_0000115 "Ambitioned_expansion_of_renewable_energies__power_plant_complex,_CO2_optimisation_of_power_plants_by_21st__year_of_operation" ;
     OEO:IAO_0000136 OEKG:Zukunft_Stromsystem_analysis_scope ;
-    OEO:OEO_00010247 "" ;
+    OEO:abbreviation "" ;
     DC:type "Target-driven" .
 
 OEKG:Untersuchungen_zur_Energiestrategie_Brandenburgs a OEO:OEO_00000364 ;
@@ -558,9 +558,9 @@ OEKG:Untersuchungen_zur_Energiestrategie_Brandenburgs_resolution a OEO:OEO_00020
     OEO:OEO_00040010 OEO:UO_0000032 .
 
 OEKG:Untersuchungen_zur_Energiestrategie_Brandenburgs_scenario_horizon a OEO:OEO_00020098 ;
-    OEO:BFO_0000051 [ a OEO:OEO_00030032 ;
+    OEO:BFO_0000051 [ a OEO:OEO_00030031 ;
             OEO:OEO_00140178 2015 ],
-        [ a OEO:OEO_00030031 ;
+        [ a OEO:OEO_00030032 ;
             OEO:OEO_00140178 2015 ],
         OEKG:Untersuchungen_zur_Energiestrategie_Brandenburgs_duration,
         OEKG:scenario_year_2015 .
