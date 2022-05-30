@@ -1,5 +1,5 @@
 {
-	"KLIMASCHUTZSZENARIO_2050": {
+	"klimaschutzszenario_2050": {
 		"title": "Klimaschutzszenario 2050",
 		"sub-title": "2. Endbericht",
 		"abbreviation": "KSz 2050",
@@ -36,7 +36,7 @@
 			"Hans-Joachim Ziesing"
 		],
 		"institution": {
-			"name": "Öko-Institut e.V. (authors #1-#18), Frauenhofer ISI (#19-#28)"
+			"name": "Öko-Institut"
 		},
 		"licence": "",
 		"funding source": {
@@ -46,7 +46,7 @@
 			"type of sponsorship": ""
 		},
 		"study report": {
-			"Publication_Year": "2015",
+			"publication year": "2015",
 			"citation reference": "",
 			"DOI": ""
 		},
@@ -73,12 +73,12 @@
 				"ending time": "2050"
 			}
 		},
-		"Resolution": {
+		"resolution": {
 			"id": "UO_0000036",
 			"name": "Year"
 		},
 		"scenario years": ["2020", "2030", "2040", "2050"],
-		"sector": [{
+		"sectors": [{
 				"id": "OEO_00000145",
 				"name": "electricity sector"
 			},
@@ -93,10 +93,6 @@
 			{
 				"id": "OEO_00010041",
 				"name": "CRF sector (IPCC 2006): manufacturing industries and construction"
-			},
-			{
-				"id": "OEO_00010041",
-				"name": "electricity sector"
 			},
 			{
 				"id": "OEO_00010040",
@@ -127,7 +123,7 @@
 				"name": "CRF sector (IPCC 2006): waste"
 			}
 		],
-		"energy carrier": [{
+		"energy carriers": [{
 				"id": "OEO_00000204",
 				"name": "hard coal"
 			},
@@ -165,7 +161,20 @@
 			"installed capacities": [{
 				"id": "OEO_00000012",
 				"name": "energy storage"
-			}],
+			},
+      {
+				"id": "OEO_00010024",
+				"name": "battery electric vehicle"
+			},
+      {
+				"id": "OEO_00000146",
+				"name": "electric vehicle"
+			},
+      {
+				"id": "OEO_00000039",
+				"name": "thermal energy storage"
+			}
+      ],
 			"potentials": [{
 					"id": "OEO_00140058",
 					"name": "technological flow potential"
@@ -217,7 +226,7 @@
 				}
 			]
 		},
-		"modeling input": {
+		"modeling inputs": {
 			"population": [{
 				"id": "OEO_00230013",
 				"name": "population"
@@ -253,6 +262,26 @@
 				}
 			]
 		},
-		"modeling output": []
+		"modeling output": [],
+    "scenarios": [
+    {
+      "name" : "Aktuelle-Maßnahmen-Szenario (2012)",
+      "abbreviation" : "AMS (2012)",
+      "definition" : "All measures done until 2012, target: now situation of political energy and climate framework",
+      "type" : "Measure-driven"
+    },
+    {
+      "name" : "Klimaschutzszenario 80",
+      "abbreviation" : "KS 80",
+      "definition" : "Targets of governmental energy concept for greenhouse gas emissions, renewable energies and energy efficiency",
+      "type" : "Target-driven"
+    },
+    {
+      "name" : "Klimaschutzszenario 95",
+      "abbreviation" : "KS 95",
+      "definition" : "Reduction of greenhouse gas emissions 95% in 2050 towards 1990",
+      "type" : "Target-driven"
+    }
+  ]
 	}
 }

@@ -558,9 +558,9 @@ OEKG:Untersuchungen_zur_Energiestrategie_Brandenburgs_resolution a OEO:OEO_00020
     OEO:OEO_00040010 OEO:UO_0000032 .
 
 OEKG:Untersuchungen_zur_Energiestrategie_Brandenburgs_scenario_horizon a OEO:OEO_00020098 ;
-    OEO:BFO_0000051 [ a OEO:OEO_00030031 ;
+    OEO:BFO_0000051 [ a OEO:OEO_00030032 ;
             OEO:OEO_00140178 2015 ],
-        [ a OEO:OEO_00030032 ;
+        [ a OEO:OEO_00030031 ;
             OEO:OEO_00140178 2015 ],
         OEKG:Untersuchungen_zur_Energiestrategie_Brandenburgs_duration,
         OEKG:scenario_year_2015 .
@@ -637,10 +637,10 @@ OEKG:Zukunft_Stromsystem_resolution a OEO:OEO_00020121 ;
     OEO:OEO_00040010 OEO:UO_0000032 .
 
 OEKG:Zukunft_Stromsystem_scenario_horizon a OEO:OEO_00020098 ;
-    OEO:BFO_0000051 [ a OEO:OEO_00030031 ;
-            OEO:OEO_00140178 2020 ],
-        [ a OEO:OEO_00030032 ;
+    OEO:BFO_0000051 [ a OEO:OEO_00030032 ;
             OEO:OEO_00140178 2050 ],
+        [ a OEO:OEO_00030031 ;
+            OEO:OEO_00140178 2020 ],
         OEKG:Zukunft_Stromsystem_duration,
         OEKG:scenario_year_2020,
         OEKG:scenario_year_2025,
