@@ -1,4 +1,4 @@
-**Disclaimer:** This tool is a work in progress.
+**Disclaimer:** This repository is currently under development.
 
 This repository aims at providing some guidelines for energy experts to make a RDF document. RDF is a standard for exchanging data. If you want to learn about the RDF standard, please check out [this page](https://www.w3.org/RDF/) for more details. The Open Energy Knowledge Graph (OEKG), is based on the RDF standard and the [Turtle](https://www.w3.org/TR/turtle/) format. Fundamentally, we use the [OEO ontology](https://github.com/OpenEnergyPlatform/ontology) as the schema for our knowledge graph. It means, the OEKG is under development according to the OEO conceptualization. [This image](https://github.com/OpenEnergyPlatform/oekg/blob/main/OEKG-Template/OEKG_Template_V1.0.1.pdf) shows the latest version of the OEKG template. As the OEO evolves, this template may change accordingly. 
 
