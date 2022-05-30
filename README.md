@@ -1,7 +1,7 @@
 **Disclaimer:** This tool is a work in progress.
 
 
-[this Google Colab notebook](https://www.w3.org/RDF/](https://github.com/OpenEnergyPlatform/oekg/blob/main/How-to-develop-OEKG/How_to_develop_OEPKG.ipynb)
+[this Google Colab notebook](https://github.com/OpenEnergyPlatform/oekg/blob/main/How-to-develop-OEKG/How_to_develop_OEPKG.ipynb)
 [RDF](https://www.w3.org/RDF/)
 [Turtle](https://www.w3.org/TR/turtle/)
 [Apache Jena](https://jena.apache.org/)
