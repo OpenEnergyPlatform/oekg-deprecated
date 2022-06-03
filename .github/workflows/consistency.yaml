@@ -1,0 +1,17 @@
+name: OEKG CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '11'
+      - name: consistency
+        run: |
+          wget https://github.com/ontodev/robot/releases/latest/download/robot.jar
+          wget https://openenergy-platform.org/ontology/oeo/releases/oeo-full.owl
+          java -jar build/robot.jar merge --input oeo-full.owl --input OEKG-Turtle/OEKG_V1.ttl --output merged.owl
+          java -jar build/robot.jar reason --reasoner hermit --axiom-generators "SubClass EquivalentClass DisjointClasses DataPropertyCharacteristic EquivalentDataProperties SubDataProperty ClassAssertion PropertyAssertion EquivalentObjectProperty InverseObjectProperties ObjectPropertyCharacteristic SubObjectProperty ObjectPropertyRange ObjectPropertyDomain" --include-indirect true --input merged.owl --output closed.owl
