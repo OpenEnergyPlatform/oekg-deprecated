@@ -1,0 +1,38 @@
+@prefix OEKG: <http://openenergy-platform.org/ontology/oekg/> .
+@prefix OEO: <http://openenergy-platform.org/ontology/oeo/> .
+
+OEKG:dummy_model_AAB OEO:participates_in OEKG:dummy_scenario_projection_AB,
+        OEKG:dummy_scenario_projection_DZ .
+
+OEKG:dummy_model_ADB OEO:participates_in OEKG:dummy_scenario_projection_DS .
+
+OEKG:dummy_model_AUB OEO:participates_in OEKG:dummy_scenario_projection_CA .
+
+OEKG:dummy_model_AWB OEO:participates_in OEKG:dummy_scenario_projection_DZ .
+
+OEKG:dummy_dataset_ACB OEO:conforms OEKG:dummy_narriative_UU .
+
+OEKG:dummy_dataset_ASC OEO:conforms OEKG:dummy_narriative_JK .
+
+OEKG:dummy_scenario_projection_AB OEO:based_on OEKG:dummy_narriative_UU ;
+    OEO:has_input OEKG:dummy_dataset_ACB ;
+    OEO:is_executed_by OEKG:dummy_institute_AQ10 .
+
+OEKG:dummy_scenario_projection_CA OEO:based_on OEKG:dummy_narriative_JK ;
+    OEO:has_input OEKG:dummy_dataset_ASC ;
+    OEO:is_executed_by OEKG:dummy_institute_AQ10 .
+
+OEKG:dummy_scenario_projection_DS OEO:based_on OEKG:dummy_narriative_UU ;
+    OEO:has_input OEKG:dummy_dataset_ADC ;
+    OEO:is_executed_by OEKG:dummy_institute_AQ10 .
+
+OEKG:dummy_dataset_ADC OEO:conforms OEKG:dummy_narriative_KK,
+        OEKG:dummy_narriative_UU .
+
+OEKG:dummy_narriative_JK OEO:similar_to OEKG:dummy_narriative_UU .
+
+OEKG:dummy_scenario_projection_DZ OEO:based_on OEKG:dummy_narriative_KK,
+        OEKG:dummy_narriative_UU ;
+    OEO:has_input OEKG:dummy_dataset_ADC ;
+    OEO:is_executed_by OEKG:dummy_institute_AA10 .
+
